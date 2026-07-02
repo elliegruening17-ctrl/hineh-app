@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hineh</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <meta name="theme-color" content="#0f2b22">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Hineh">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+
+<body>
+
+  <div class="background-circle"></div>
+
+  <main class="card" id="card">
+
+    <div class="top-bar">
+      <div id="stopwatch" class="stopwatch">00:00</div>
+    </div>
+
+    <p id="stage" class="label">Welcome</p>
+
+    <h1 id="text" class="scripture">Remember that God is here.</h1>
+
+    <p id="prompt" class="prompt"></p>
+
+    <p id="reference" class="reference"></p>
+
+    <div id="progress" class="progress-dots"></div>
+
+    <button id="actionButton">Begin</button>
+
+  </main>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>

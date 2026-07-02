@@ -1,0 +1,16 @@
+{
+  "name": "Hineh",
+  "short_name": "Hineh",
+  "description": "A quiet meditation app with daily scripture and reflection prompts.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f2b22",
+  "background_color": "#0f2b22",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ]
+}
