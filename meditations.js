@@ -1,7 +1,7 @@
 export const MEDITATIONS = [
-  { id: "meditation-i", title: "Meditation I", theme: "Morning", reference: "Morning Meditation", text: "read: Morning Meditation", heart: "Begin your morning with intentional quiet." },
-  { id: "meditation-ii", title: "Meditation II", theme: "Afternoon", reference: "Afternoon Meditation", text: "read: Afternoon Meditation", heart: "Pause in the afternoon to refocus and breathe." },
-  { id: "meditation-iii", title: "Meditation III", theme: "Evening", reference: "Evening Meditation", text: "read: Evening Meditation", heart: "Close your day with calm reflection and gratitude." },
+  { id: "meditation-i", title: "Meditation I", theme: "Daily", reference: "Begin with gratitude", text: "Take a quiet moment to breathe deeply and welcome God’s peace.", heart: "Begin with intentional quiet and thankfulness." },
+  { id: "meditation-ii", title: "Meditation II", theme: "Daily", reference: "Pause and reset", text: "Take a short break to center your thoughts and rest in His presence.", heart: "Pause to refocus and breathe." },
+  { id: "meditation-iii", title: "Meditation III", theme: "Daily", reference: "Reflect before sleep", text: "End with a gentle reflection on the day and a calm heart.", heart: "Close with calm reflection and gratitude." },
   { id: "psalm16-5-11", title: "A Secure Portion", theme: "Assurance", reference: "Psalm 16:5-11", text: "read: Psalm 16:5-11", heart: "I keep my eyes on God who is my chosen portion and protector." },
   { id: "psalm18-1-3", title: "The Lord Is My Rock", theme: "Confidence", reference: "Psalm 18:1-3", text: "read: Psalm 18:1-3", heart: "I praise God for rescuing me and strengthening my heart with confidence." },
   { id: "psalm23-1", title: "The Shepherd", theme: "Comfort", reference: "Psalm 23:1", text: "read: Psalm 23:1", heart: "I trust the Shepherd who provides everything I truly need." },
