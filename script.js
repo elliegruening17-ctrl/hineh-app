@@ -130,7 +130,8 @@ function chooseMeditationForToday() {
     return savedMeditation;
   }
 
-  const nextId = nextMeditationId(state.meditationId);
+  const timeOfDayId = meditationIdForTimeOfDay();
+  const nextId = getMeditationById(timeOfDayId) ? timeOfDayId : nextMeditationId(state.meditationId);
   state.date = today;
   state.meditationId = nextId;
   state.cardIndex = -1;
@@ -192,6 +193,13 @@ function currentGreeting() {
   if (hour < 12) return 'Good Morning';
   if (hour < 18) return 'Good Afternoon';
   return 'Good Evening';
+}
+
+function meditationIdForTimeOfDay() {
+  const hour = new Date().getHours();
+  if (hour < 12) return 'meditation-i';
+  if (hour < 18) return 'meditation-ii';
+  return 'meditation-iii';
 }
 
 function randomPrompt(list) {
