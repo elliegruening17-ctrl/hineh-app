@@ -248,9 +248,9 @@ function showCard() {
   elements.stage.textContent = card.stage;
   elements.text.textContent = card.text;
   if (card.stage === 'Scripture' && card.text?.startsWith('read:')) {
-    elements.reference.textContent = '';
-  } else {
     elements.reference.textContent = card.reference || '';
+  } else {
+    elements.reference.textContent = '';
   }
   elements.prompt.textContent = '';
   elements.actionButton.textContent = state.cardIndex === cards.length - 1 ? 'Finish' : 'Next';
